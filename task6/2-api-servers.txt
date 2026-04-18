@@ -1,0 +1,5 @@
+NAME                IMAGE                         COMMAND                  SERVICE     CREATED              STATUS              PORTS
+task6-back-end-1    softy-pinko-back-end:task6    "python3 api.py"         back-end    About a minute ago   Up About a minute   
+task6-back-end-2    softy-pinko-back-end:task6    "python3 api.py"         back-end    About a minute ago   Up About a minute   
+task6-front-end-1   softy-pinko-front-end:task6   "/docker-entrypoint.…"   front-end   About a minute ago   Up About a minute   80/tcp
+task6-proxy-1       softy-pinko-proxy:task6       "/docker-entrypoint.…"   proxy       About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, [::]:80->80/tcp
